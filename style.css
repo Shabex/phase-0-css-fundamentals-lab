@@ -1,5 +1,42 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: Center;
+}
+
+#featured-property img {
+    height: 450px;
+    width: 600px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 15px;
+}
+
+a:link {
+    padding: 10px;
+    color: blue;
+}
+
+#details {
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#featured-property {
+    text-align: center;
+    line-height: 1.6;
+    padding-left: 250px;
+    padding-right: 250px
+}
+
+nav {
+    text-align: center;
 }
